@@ -1,0 +1,54 @@
+$backGr-main:#0a192f;
+$fontColor-first: #ccd6f6;
+$greencolor:#64ffda;
+.mainnav {
+    font-size: .9rem;
+    margin: 0 auto;
+    padding: 0;
+    .bg-dark {
+        background-color: $backGr-main !important;
+    }
+    .navTxt {
+        color: $fontColor-first;
+        float: right;
+        line-height: 13;
+        font-weight: 500;
+        font-size: .9rem;
+        display: none;
+    }
+    nav {
+        padding: 0 3rem;
+        #navbarNav {
+            .navbar-nav {
+                a {
+                    background-image: linear-gradient(to right, $greencolor, $greencolor 50%, $fontColor-first 50%);
+                    background-size: 200% 100%;
+                    background-position: -100%;
+                    display: inline-block;
+                    padding: 0 .8rem;
+                    position: relative;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    transition: all 0.3s ease-in-out;
+                    &:before {
+                        content: '';
+                        background: $greencolor;
+                        display: block;
+                        position: absolute;
+                        bottom: -3px;
+                        left: 0;
+                        width: 0;
+                        height: 3px;
+                        transition: all 0.3s ease-in-out;
+                    }
+                    &:hover {
+                        background-position: 0;
+                        &::before {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
