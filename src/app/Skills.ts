@@ -11,10 +11,7 @@ export const course=[{
     "img":"web.png"
 }
 ]
-export interface ICourse {
-    name:string,
-    img:string
-}
+
 
 export const frontEndSkills=[{
     "name":"HTML5",
@@ -92,4 +89,8 @@ export interface ISkills {
     name:string,
     img:string,
     percent:number
+}
+export interface ICourse {
+    name:string,
+    img:string
 }
