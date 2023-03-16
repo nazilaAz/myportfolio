@@ -105,10 +105,23 @@
 }
 .container-fluid .sidebar {
   height: 100vh;
-  width: 4rem;
-  position: sticky;
+  width: 4.4rem;
+  position: fixed;
   top: 0;
   right: 0;
+  background-color: #0a192f;
+  color: hsl(0, 0%, 100%);
+  overflow-x: hidden;
+  padding: 0%;
+  z-index: 1;
+  left: 0.7rem;
+}
+.container-fluid .sidebarright {
+  height: 100vh;
+  width: 4.4rem;
+  position: fixed;
+  top: 0;
+  right: 0.78rem;
   background-color: #0a192f;
   color: hsl(0, 0%, 100%);
   overflow-x: hidden;

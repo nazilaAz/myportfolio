@@ -121,10 +121,25 @@ $greencolor:#64ffda;
     }
     .sidebar {
         height: 100vh;
-        width: 4rem;
-        position: sticky;
+        width: 4.4rem;
+        position: fixed;
         top: 0;
         right: 0;
+        background-color: rgba($backGr-main, 1);
+        color: hsla(0, 0%, 100%, 1);
+        overflow-x: hidden;
+        padding: 0%;
+        z-index: 1;
+        left: .7rem;
+    }
+    .sidebarright {
+        // border: 2px solid red;
+        height: 100vh;
+        width: 4.4rem;
+        position: fixed;
+        // left: 100vw;
+        top: 0;
+        right: .78rem;
         background-color: rgba($backGr-main, 1);
         color: hsla(0, 0%, 100%, 1);
         overflow-x: hidden;
