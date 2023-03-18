@@ -38,7 +38,35 @@
                 </div>
             </div>
         </div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
+        <div class="col">
+            <div class="col">
+                <div class="col" *ngFor="let itemb of backend">
+                    <div class="card" style="width: auto; height: auto;">
+                        <img src="../../assets/image/{{ itemb.img }}" class="card-img-topFront" alt="...">
+                        <div class="card-body ">
+                            <div class="progress" role="progressbar" attr.aria-valuenow="{{itemb.percent}}" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped" [style.width]="itemb.percent+'%'" [style.background-color]="itemb.color">{{itemb.percent}}%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="col">
+                <div class="col">
+                    <div class="col" *ngFor="let itemc of vcontrol">
+                        <div class="card" style="width: auto; height: auto;">
+                            <img src="../../assets/image/{{ itemc.img }}" class="card-img-topFront" alt="...">
+                            <div class="card-body ">
+                                <div class="progress" role="progressbar" attr.aria-valuenow="{{itemc.percent}}" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar progress-bar-striped" [style.width]="itemc.percent+'%'" [style.background-color]="itemc.color">{{itemc.percent}}%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

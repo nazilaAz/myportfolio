@@ -1,5 +1,5 @@
 import { Component,OnInit } from '@angular/core';
-import { course, frontEndSkills } from '../Skills';
+import { backEndSkills, controlversion, course, frontEndSkills } from '../Skills';
 
 @Component({
   selector: 'app-skill',
@@ -9,6 +9,8 @@ import { course, frontEndSkills } from '../Skills';
 export class SkillComponent implements OnInit {
   courses:  any= course;
   frontend: any = frontEndSkills;
+  backend: any = backEndSkills;
+  vcontrol: any = controlversion;
   percent: Array<number> = [];
 
   constructor(){
