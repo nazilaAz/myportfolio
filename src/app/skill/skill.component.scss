@@ -39,6 +39,17 @@ $greencolor:#64ffda;
             align-self: center;
             padding: .9rem 0;
         }
+        .card-img-topFront {
+            width: 20%;
+            height: auto;
+            align-self: center;
+            padding: .8rem 0;
+        }
+        .card-body {
+            .progress {
+                --bs-progress-bar-color: black !important;
+            }
+        }
     }
     .card .card-image {
         width: 100%;

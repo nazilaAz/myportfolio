@@ -26,7 +26,18 @@
                 </div>
             </div>
         </div>
-        <div class="col">Column</div>
+        <div class="col">
+            <div class="col" *ngFor="let itemf of frontend">
+                <div class="card" style="width: auto; height: auto;">
+                    <img src="../../assets/image/{{ itemf.img }}" class="card-img-topFront" alt="...">
+                    <div class="card-body ">
+                        <div class="progress" role="progressbar" attr.aria-valuenow="{{itemf.percent}}" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped" [style.width]="itemf.percent+'%'" [style.background-color]="itemf.color">{{itemf.percent}}%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="col">Column</div>
         <div class="col">Column</div>
     </div>
