@@ -21,4 +21,16 @@
     font-size: 18px;
     background-color: #0a192f;
   }
+  body .container-sidebar {
+    display: none;
+  }
+  body .sidebarright {
+    display: none;
+  }
+  body .container {
+    --bs-gutter-x: 0 !important;
+  }
+  body .container .card {
+    width: 17rem !important;
+  }
 }/*# sourceMappingURL=styles.css.map */

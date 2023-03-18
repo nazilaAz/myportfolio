@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { course, frontEndSkills } from '../Skills';
 
 @Component({
@@ -6,8 +6,29 @@ import { course, frontEndSkills } from '../Skills';
   templateUrl: './skill.component.html',
   styleUrls: ['./skill.component.scss']
 })
-export class SkillComponent {
-  course: any = course;
+export class SkillComponent implements OnInit {
+  courses:  any= course;
   frontend: any = frontEndSkills;
+  percent: Array<number> = [];
 
+  constructor(){
+    for(let i=0; i<frontEndSkills.length; i++){
+      this.percent.push(frontEndSkills[i].percent);
+      
+    }
+
+   
+
+    // ngOnInit(): void {
+    //   for(let i=0; i<frontEndSkills.length; i++){
+    //     this.percent.push(frontEndSkills[i].percent);
+      
+    // }
+    // console.log(this.percent);
+    // console.log(this.course);
+  }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
+  
 }

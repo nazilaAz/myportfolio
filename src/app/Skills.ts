@@ -1,14 +1,14 @@
 export const course=[{
-    "name":"FrontEnd",
-    "img":"front-end.png"
+    name:"FrontEnd",
+    img:"front-end.png"
 },
 {
-    "name":"BackEnd",
-    "img":"coding.png"
+    name:"BackEnd",
+    img:"coding.png"
 },
 {
-    "name":"Version Control",
-    "img":"web.png"
+    name:"Version Control",
+    img:"web.png"
 }
 ]
 
@@ -16,21 +16,21 @@ export const course=[{
 export const frontEndSkills=[{
     "name":"HTML5",
     "img":"html5.png",
-    "percent":85,
+    "percent":90,
     "color":"#FA7070"
 
 },
 {
     "name":"CSS3",
     "img":"css-3.png",
-    "percent":85,
+    "percent":90,
     "color":"#FBF2CF"
 
 },
 {
     "name":"SCss",
     "img":"sass.png",
-    "percent":85,
+    "percent":80,
     "color":"#C6EBC5"
 },
 {
@@ -46,12 +46,12 @@ export const frontEndSkills=[{
 },{
     "name":"Bootstrap",
     "img":"bootstrap.png",
-    "percent":85,
+    "percent":80,
     "color":"#A5F1E9"
 },{
     "name":"Angular",
     "img":"angular.png",
-    "percent":85,
+    "percent":60,
     "color":"#E1FFEE"
 }]
 

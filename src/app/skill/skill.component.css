@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 .container {
-  width: 85%;
   height: auto;
   margin: 5rem auto;
 }
@@ -27,6 +26,15 @@
   border: 1px solid rgba(128, 128, 128, 0.15);
   box-sizing: border-box;
   text-align: center;
+  color: white;
+}
+.container .card img {
+  width: 60%;
+  height: auto;
+}
+.container .card .card-img-top {
+  align-self: center;
+  padding: 0.9rem 0;
 }
 .container .card .card-image {
   width: 100%;

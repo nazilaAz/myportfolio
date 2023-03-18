@@ -31,5 +31,17 @@ $greencolor:#64ffda;
     body {
         font-size: $font-md;
         background-color: $backGr-main;
+        .container-sidebar {
+            display: none;
+        }
+        .sidebarright {
+            display: none;
+        }
+        .container {
+            --bs-gutter-x: 0 !important;
+            .card {
+                width: 17rem !important;
+            }
+        }
     }
 }
