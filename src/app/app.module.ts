@@ -9,6 +9,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { ParticleComponent } from './particle/particle.component';
 import { SkillComponent } from './skill/skill.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SkillComponent } from './skill/skill.component';
     FooterComponent,
     ParticleComponent,
     SkillComponent,
+    TestComponent,
   ],
   imports: [
     BrowserModule,
