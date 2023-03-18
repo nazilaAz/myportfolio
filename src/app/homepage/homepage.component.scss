@@ -9,36 +9,10 @@ $greencolor:#64ffda;
     box-sizing: 0;
 }
 
-// .homegrid {
-//     // border: 2px solid red;
-//     width: 80vw;
-//     height: auto;
-//     margin: 5rem auto;
-//     .row .col {
-//         // color: white;
-//         text-align: center;
-//         padding-left: 2rem;
-//         h3 {
-//             font-size: .9rem;
-//             color: $greencolor;
-//         }
-//         h1 {
-//             font-family: 'Righteous', cursive;
-//             color: $fontColor-first;
-//         }
-//         p {
-//             font-family: 'Righteous', cursive;
-//             color: $fontColor-second;
-//             line-height: 2;
-//         }
-//         .img-thumbnail {
-//             border-radius: 50% !important;
-//         }
-//     }
-// }
 .container-name {
     width: 60vw;
     margin: 5rem auto;
+    background-color: $backGr-main;
     .row {
         .col {
             .hi {

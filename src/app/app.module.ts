@@ -8,6 +8,7 @@ import { BothsideasideComponent } from './bothsideaside/bothsideaside.component'
 import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
 import { ParticleComponent } from './particle/particle.component';
+import { SkillComponent } from './skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ParticleComponent } from './particle/particle.component';
     HomepageComponent,
     FooterComponent,
     ParticleComponent,
+    SkillComponent,
   ],
   imports: [
     BrowserModule,

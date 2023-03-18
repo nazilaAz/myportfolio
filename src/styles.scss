@@ -2,26 +2,34 @@ $font-xl:24px;
 $font-lg:20px;
 $font-md:18px;
 $font-sm:16px;
+$backGr-main:#0a192f;
+$fontColor-first: #ccd6f6;
+$fontColor-second:#8892b0;
+$greencolor:#64ffda;
 @media screen and (min-width: 1441px) {
     body {
         font-size: $font-xl;
+        background-color: $backGr-main;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width:1440px) {
     body {
         font-size: $font-lg;
+        background-color: $backGr-main;
     }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
         font-size: $font-md;
+        background-color: $backGr-main;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     body {
         font-size: $font-md;
+        background-color: $backGr-main;
     }
 }

@@ -1,0 +1,17 @@
+<div class="container card-container">
+    <div class="card" *ngFor="let courseItem of course">
+
+        <div class="card-info">
+            <div class="card-title">{{ courseItem.name }}</div>
+            <div class="card-image"><img src="../../assets/image/{{ courseItem.img }}"></div>
+
+            <div class="card-detail" *ngFor="let skilFront of frontend">
+                <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar progress-bar-striped" [style.width.%]=""></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
