@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BothsideasideComponent } from './bothsideaside/bothsideaside.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
+import { ParticleComponent } from './particle/particle.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
     BothsideasideComponent,
     HomepageComponent,
     FooterComponent,
+    ParticleComponent,
   ],
   imports: [
     BrowserModule,
