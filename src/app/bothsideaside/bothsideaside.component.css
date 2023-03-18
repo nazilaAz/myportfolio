@@ -5,20 +5,20 @@
   font-weight: normal;
   font-style: normal;
 }
-.container-fluid .row .col {
+.container-sidebar .row .col {
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
-.container-fluid .row .col .social-networks {
+.container-sidebar .row .col .social-networks {
   margin: 0 -1rem 2rem;
   padding: 0;
   font-size: 0;
   text-align: center;
 }
-.container-fluid .row .col .social-networks li {
+.container-sidebar .row .col .social-networks li {
   display: inline-block;
 }
-.container-fluid .row .col .social-networks a {
+.container-sidebar .row .col .social-networks a {
   display: block;
   position: relative;
   margin: 0 7px;
@@ -29,7 +29,7 @@
   text-align: center;
   text-decoration: none;
 }
-.container-fluid .row .col .social-networks a:before {
+.container-sidebar .row .col .social-networks a:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -42,7 +42,7 @@
   background-color: #3b3e50;
   transition: all 400ms;
 }
-.container-fluid .row .col .social-networks a:after {
+.container-sidebar .row .col .social-networks a:after {
   position: relative;
   display: block;
   font-family: "icomoon";
@@ -55,35 +55,35 @@
   font-size: 1.2rem;
   line-height: 66px;
 }
-.container-fluid .row .col .social-networks a:hover, .container-fluid .row .col .social-networks a:focus {
+.container-sidebar .row .col .social-networks a:hover, .container-sidebar .row .col .social-networks a:focus {
   text-decoration: none;
 }
-.container-fluid .row .col .social-networks.spin-icon a:hover:after, .container-fluid .row .col .social-networks.spin-icon a:focus:after {
+.container-sidebar .row .col .social-networks.spin-icon a:hover:after, .container-sidebar .row .col .social-networks.spin-icon a:focus:after {
   transition: transform 0.4s ease-out;
   transform: rotateZ(360deg);
 }
-.container-fluid .row .col .social-networks.square a:hover:before, .container-fluid .row .col .social-networks.square a:focus:before {
+.container-sidebar .row .col .social-networks.square a:hover:before, .container-sidebar .row .col .social-networks.square a:focus:before {
   border-radius: 0;
 }
-.container-fluid .row .col .social-networks.bounce a:hover, .container-fluid .row .col .social-networks.bounce a:focus {
+.container-sidebar .row .col .social-networks.bounce a:hover, .container-sidebar .row .col .social-networks.bounce a:focus {
   animation: bounce 1s;
 }
-.container-fluid .row .col .social-networks .icon-linkedin:after {
+.container-sidebar .row .col .social-networks .icon-linkedin:after {
   content: "\eac9";
 }
-.container-fluid .row .col .social-networks .icon-linkedin:hover:before, .container-fluid .row .col .social-networks .icon-linkedin:focus:before {
+.container-sidebar .row .col .social-networks .icon-linkedin:hover:before, .container-sidebar .row .col .social-networks .icon-linkedin:focus:before {
   background: #64ffda;
 }
-.container-fluid .row .col .social-networks .icon-github:after {
+.container-sidebar .row .col .social-networks .icon-github:after {
   content: "\eab1";
 }
-.container-fluid .row .col .social-networks .icon-github:hover:before, .container-fluid .row .col .social-networks .icon-github:focus:before {
+.container-sidebar .row .col .social-networks .icon-github:hover:before, .container-sidebar .row .col .social-networks .icon-github:focus:before {
   background: #64ffda;
 }
-.container-fluid .row .col .social-networks .icon-instagram:after {
+.container-sidebar .row .col .social-networks .icon-instagram:after {
   content: "\e604";
 }
-.container-fluid .row .col .social-networks .icon-instagram:hover:before, .container-fluid .row .col .social-networks .icon-instagram:focus:before {
+.container-sidebar .row .col .social-networks .icon-instagram:hover:before, .container-sidebar .row .col .social-networks .icon-instagram:focus:before {
   background: #64ffda;
 }
 @keyframes bounce {
@@ -103,7 +103,7 @@
     transform: translate3d(0, -2px, 0);
   }
 }
-.container-fluid .sidebar {
+.container-sidebar .sidebar {
   height: 100vh;
   width: 4.4rem;
   position: fixed;
@@ -116,11 +116,11 @@
   z-index: 1;
   left: 0.7rem;
 }
-.container-fluid .sidebarright {
+.container-sidebar .sidebarright {
   height: 100vh;
   width: 4.4rem;
   position: fixed;
-  top: 0;
+  top: 0.5rem;
   right: 0.78rem;
   background-color: #0a192f;
   color: hsl(0, 0%, 100%);

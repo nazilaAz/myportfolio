@@ -9,7 +9,7 @@ $greencolor:#64ffda;
     font-style: normal;
 }
 
-.container-fluid {
+.container-sidebar {
     .row {
         .col {
             writing-mode: vertical-rl;
@@ -138,7 +138,7 @@ $greencolor:#64ffda;
         width: 4.4rem;
         position: fixed;
         // left: 100vw;
-        top: 0;
+        top: .5rem;
         right: .78rem;
         background-color: rgba($backGr-main, 1);
         color: hsla(0, 0%, 100%, 1);

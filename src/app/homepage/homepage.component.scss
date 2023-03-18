@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+$backGr-main:#0a192f;
+$fontColor-first: #ccd6f6;
+$fontColor-second:#8892b0;
+$greencolor:#64ffda;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+// .homegrid {
+//     // border: 2px solid red;
+//     width: 80vw;
+//     height: auto;
+//     margin: 5rem auto;
+//     .row .col {
+//         // color: white;
+//         text-align: center;
+//         padding-left: 2rem;
+//         h3 {
+//             font-size: .9rem;
+//             color: $greencolor;
+//         }
+//         h1 {
+//             font-family: 'Righteous', cursive;
+//             color: $fontColor-first;
+//         }
+//         p {
+//             font-family: 'Righteous', cursive;
+//             color: $fontColor-second;
+//             line-height: 2;
+//         }
+//         .img-thumbnail {
+//             border-radius: 50% !important;
+//         }
+//     }
+// }
+.container-name {
+    width: 60vw;
+    margin: 5rem auto;
+    .row {
+        .col {
+            .hi {
+                font-size: 1rem;
+                color: $greencolor;
+            }
+            .name {
+                font-family: 'Righteous', cursive;
+                color: $fontColor-first;
+            }
+            .desc {
+                font-family: 'Righteous', cursive;
+                color: $fontColor-second;
+                line-height: 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.container-name {
+  width: 60vw;
+  margin: 5rem auto;
+}
+.container-name .row .col .hi {
+  font-size: 1rem;
+  color: #64ffda;
+}
+.container-name .row .col .name {
+  font-family: "Righteous", cursive;
+  color: #ccd6f6;
+}
+.container-name .row .col .desc {
+  font-family: "Righteous", cursive;
+  color: #8892b0;
+  line-height: 2;
+}/*# sourceMappingURL=homepage.component.css.map */

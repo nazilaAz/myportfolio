@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+$font-xl:24px;
+$font-lg:20px;
+$font-md:18px;
+$font-sm:16px;
+@media screen and (min-width: 1441px) {
+    body {
+        font-size: $font-xl;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1440px) {
+    body {
+        font-size: $font-lg;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: $font-md;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: $font-md;
+    }
+}
