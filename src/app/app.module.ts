@@ -5,14 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BothsideasideComponent } from './bothsideaside/bothsideaside.component';
-import { RightasideComponent } from './rightaside/rightaside.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     BothsideasideComponent,
-    RightasideComponent,
+    HomepageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
