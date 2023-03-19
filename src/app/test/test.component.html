@@ -1,4 +1,4 @@
-<div class="section">
+<!-- <div class="section">
     <div class="flip-box-row">
         <div class="flip-box-column" *ngFor="let item of courses">
             <div class="flip-box-front">
@@ -12,4 +12,58 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+<section class="content">
+    <div class="cards">
+        <div class="card">
+            <div class="card__side card__side--front card__side--front-1">
+                <div class="card__description">{{ courses[0]["name"]}}</div>
+                <img src="../../assets/image/{{ courses[0].img }}" class="card-img-top" alt="...">
+            </div>
+            <div>
+                <div class="card__side card__side--back card__side--back-1">
+                    <div class="card__description" *ngFor="let front of frontend">
+                        <!-- {{ front["name"]}} -->
+                        <img src="../../assets/image/{{ front.img }}" class="card-img-topFront" alt="...">
+                        <div class="progress" role="progressbar" attr.aria-valuenow="{{front.percent}}" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped" [style.width]="front.percent+'%'" [style.background-color]="front.color">{{front.percent}}%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__side card__side--front card__side--front-3">
+                <div class="card__description">{{ courses[1]["name"]}}</div>
+                <img src="../../assets/image/{{ courses[1].img }}" class="card-img-top" alt="...">
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+                <div class="card__description" *ngFor="let back of backend">
+                    <!-- {{ back.name}} -->
+                    <img src="../../assets/image/{{ back.img }}" class="card-img-topFront" alt="...">
+                    <div class="progress" role="progressbar" attr.aria-valuenow="{{back.percent}}" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" [style.width]="back.percent+'%'" [style.background-color]="back.color">{{back.percent}}%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__side card__side--front card__side--front-3">
+                <div class="card__description">{{ courses[2]["name"]}}</div>
+                <img src="../../assets/image/{{ courses[2].img }}" class="card-img-top" alt="...">
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+                <div class="card__description" *ngFor="let version of vcontrol">
+                    <!-- {{ version.name}} -->
+                    <img src="../../assets/image/{{ version.img }}" class="card-img-topFront" alt="...">
+                    <div class="progress" role="progressbar" attr.aria-valuenow="{{version.percent}}" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" [style.width]="version.percent+'%'" [style.background-color]="version.color">{{version.percent}}%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

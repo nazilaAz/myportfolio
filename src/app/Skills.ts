@@ -1,14 +1,14 @@
 export const course=[{
-    name:"FrontEnd",
-    img:"front-end.png"
+    "name":"FrontEnd",
+    "img":"front-end.png"
 },
 {
-    name:"BackEnd",
-    img:"coding.png"
+    "name":"BackEnd",
+    "img":"coding.png"
 },
 {
-    name:"Version Control",
-    img:"web.png"
+    "name":"Version Control",
+    "img":"web.png"
 }
 ]
 
