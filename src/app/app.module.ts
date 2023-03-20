@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ParticleComponent } from './particle/particle.component';
 import { SkillComponent } from './skill/skill.component';
 import { TestComponent } from './test/test.component';
+import { MyskillsComponent } from './myskills/myskills.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { TestComponent } from './test/test.component';
     ParticleComponent,
     SkillComponent,
     TestComponent,
+    MyskillsComponent,
   ],
   imports: [
     BrowserModule,
