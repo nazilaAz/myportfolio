@@ -113,7 +113,7 @@
   color: hsl(0, 0%, 100%);
   overflow-x: hidden;
   padding: 0%;
-  z-index: -1;
+  z-index: 1;
   left: 0.7rem;
 }
 .container-sidebar .sidebarright {

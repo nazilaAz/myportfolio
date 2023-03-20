@@ -11,6 +11,7 @@ import { ParticleComponent } from './particle/particle.component';
 import { SkillComponent } from './skill/skill.component';
 import { TestComponent } from './test/test.component';
 import { MyskillsComponent } from './myskills/myskills.component';
+import { ContactmeComponent } from './contactme/contactme.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MyskillsComponent } from './myskills/myskills.component';
     SkillComponent,
     TestComponent,
     MyskillsComponent,
+    ContactmeComponent,
   ],
   imports: [
     BrowserModule,
