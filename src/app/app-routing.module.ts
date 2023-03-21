@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: "skill", component: MyskillsComponent },
   { path: "contact", component: ContactmeComponent },
   { path: "test", component: TestComponent },
+
   { path: " ", redirectTo: "home" },
   {path:"**",redirectTo:"home"},
 ];
