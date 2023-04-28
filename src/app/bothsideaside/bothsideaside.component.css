@@ -127,4 +127,8 @@
   overflow-x: hidden;
   padding: 0%;
   z-index: -1;
+}
+.container-sidebar .sidebarright p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }/*# sourceMappingURL=bothsideaside.component.css.map */

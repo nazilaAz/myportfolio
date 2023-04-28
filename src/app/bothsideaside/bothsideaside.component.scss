@@ -1,6 +1,7 @@
 $backGr-main:#0a192f;
-$fontColor-first: #ccd6f6;
+$fontColor-first: hsl(226, 70%, 88%);
 $greencolor:#64ffda;
+$color_White: #fff;
 @font-face {
     font-family: 'icomoon';
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/icomoon.eot?3qkin2');
@@ -134,16 +135,26 @@ $greencolor:#64ffda;
     }
     .sidebarright {
         // border: 2px solid red;
-        height: 100vh;
+        // height: 100vh;
         width: 4.4rem;
         position: fixed;
         // left: 100vw;
-        top: .5rem;
+        bottom: .8rem;
         right: .78rem;
         background-color: rgba($backGr-main, 1);
         color: hsla(0, 0%, 100%, 1);
         overflow-x: hidden;
         padding: 0%;
-        z-index: -1;
+        // z-index: -1;
+        p {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+        a {
+            text-decoration: none;
+            font-size: 1rem;
+            color: $color_White;
+            font-weight: 500;
+        }
     }
 }
