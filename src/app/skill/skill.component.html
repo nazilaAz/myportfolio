@@ -1,4 +1,4 @@
-<div class="container text-center card-container2">
+<!--<div class="container text-center card-container2">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
         <div class="col" *ngFor="let item of courses">
             <div class="card" style="width: 18rem;">
@@ -49,6 +49,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>-->
+<div class="card" *ngFor="let item of courses">
+    <div class="imgBx">
+        <img src="../../assets/image/{{ item.img }}" class="card-img-top" alt="...">
+    </div>
+    <div class="content" *ngFor="let front of frontend">
+        <div class="details">
+            <h2>{{front.name}}</h2>
         </div>
     </div>
 </div>

@@ -8,7 +8,8 @@ import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   { path: "home", component: HomepageComponent },
-  { path: "skill", component: MyskillsComponent },
+  // { path: "skill", component: MyskillsComponent },
+  { path: "skill", component: SkillComponent },
   { path: "contact", component: ContactmeComponent },
   { path: "test", component: TestComponent },
 
