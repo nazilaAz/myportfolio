@@ -2,12 +2,19 @@ $font-xl:24px;
 $font-lg:20px;
 $font-md:18px;
 $font-sm:16px;
-$backGr-main:#0a192f;
+// $backGr-main:#0a192f;
+$backGr-main:#071F30;
 $fontColor-first: #ccd6f6;
 $fontColor-second:#8892b0;
 $greencolor:#64ffda;
+$color-white:#fff;
 @media screen and (min-width: 1441px) {
     body {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;
+        color: $color-white;
+        overflow-x: hidden;
+        padding-left: 10rem;
         font-size: $font-xl;
         background-color: $backGr-main;
     }
@@ -15,6 +22,11 @@ $greencolor:#64ffda;
 
 @media screen and (min-width: 769px) and (max-width:1440px) {
     body {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;
+        color: $color-white;
+        overflow-x: hidden;
+        padding-left: 10rem;
         font-size: $font-lg;
         background-color: $backGr-main;
     }
@@ -22,6 +34,11 @@ $greencolor:#64ffda;
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;
+        color: $color-white;
+        overflow-x: hidden;
+        padding-left: 10rem;
         font-size: $font-md;
         background-color: $backGr-main;
     }

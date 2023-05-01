@@ -1,4 +1,4 @@
-$backGr-main:#0a192f;
+$backGr-main:#071F30;
 $fontColor-first: #ccd6f6;
 $greencolor:#64ffda;
 .mainnav {
@@ -18,6 +18,11 @@ $greencolor:#64ffda;
     }
     nav {
         padding: 0 3rem;
+        ul {
+            li:last-child {
+                margin-right: 0;
+            }
+        }
         #navbarNav {
             .navbar-nav {
                 a {

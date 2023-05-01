@@ -1,25 +1,40 @@
 @media screen and (min-width: 1441px) {
   body {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    overflow-x: hidden;
+    padding-left: 10rem;
     font-size: 24px;
-    background-color: #0a192f;
+    background-color: #071F30;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1440px) {
   body {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    overflow-x: hidden;
+    padding-left: 10rem;
     font-size: 20px;
-    background-color: #0a192f;
+    background-color: #071F30;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   body {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    overflow-x: hidden;
+    padding-left: 10rem;
     font-size: 18px;
-    background-color: #0a192f;
+    background-color: #071F30;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
   body {
     font-size: 18px;
-    background-color: #0a192f;
+    background-color: #071F30;
   }
   body .container-sidebar {
     display: none;
