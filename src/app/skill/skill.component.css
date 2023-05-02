@@ -45,4 +45,242 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+h5 {
+  position: relative;
+  text-transform: uppercase;
+  left: 15rem;
+  top: 5rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+h5::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -58px;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.wrap {
+  max-width: 60%;
+  margin: 150px auto 0;
+}
+.wrap .bar {
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.wrap .bar span {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 1.2rem;
+  background: #64ffda;
+  border-radius: 50px;
+}
+.wrap .bar span::before {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 5px;
+  width: 80%;
+  height: 50%;
+  background: linear-gradient(to left, #0a192f, #ccd6f6);
+  border-radius: 5px;
+  animation: bar 4s ease;
+}
+@keyframes bar {
+  from {
+    width: 0;
+  }
+}
+.wrap .bar:nth-child(1) span::before {
+  width: 90%;
+}
+.wrap .bar:nth-child(2) span::before {
+  width: 90%;
+}
+.wrap .bar:nth-child(3) span::before {
+  width: 80%;
+}
+.wrap .bar:nth-child(4) span::before {
+  width: 85%;
+}
+.wrap .bar:nth-child(5) span::before {
+  width: 85%;
+}
+.wrap .bar:nth-child(6) span::before {
+  width: 80%;
+}
+.wrap .bar:nth-child(7) span::before {
+  width: 60%;
+}
+.wrap .bar abbr {
+  width: 50px;
+  display: inline-block;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  top: 2.1rem;
+  z-index: 1;
+  background: linear-gradient(to left, #0a192f, #ccd6f6);
+  box-shadow: 0 5px 20px #0a192f, 0 5px 20px #ccd6f6;
+  animation: count 4s ease;
+  font-size: 0.8rem;
+}
+@keyframes count {
+  from {
+    left: 0%;
+  }
+}
+.wrap .bar:nth-child(1) abbr {
+  left: 90%;
+}
+.wrap .bar:nth-child(2) abbr {
+  left: 90%;
+}
+.wrap .bar:nth-child(3) abbr {
+  left: 80%;
+}
+.wrap .bar:nth-child(4) abbr {
+  left: 85%;
+}
+.wrap .bar:nth-child(5) abbr {
+  left: 85%;
+}
+.wrap .bar:nth-child(6) abbr {
+  left: 80%;
+}
+.wrap .bar:nth-child(7) abbr {
+  left: 60%;
+}
+
+.back {
+  position: relative;
+  text-transform: uppercase;
+  left: 15rem;
+  top: 5rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.back::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -58px;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.wrapBack {
+  max-width: 60%;
+  margin: 150px auto 0;
+}
+.wrapBack .bar {
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.wrapBack .bar span {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 1.2rem;
+  background: #64ffda;
+  border-radius: 50px;
+}
+.wrapBack .bar span::before {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 5px;
+  width: 80%;
+  height: 50%;
+  background: linear-gradient(to left, #0a192f, #ccd6f6);
+  border-radius: 5px;
+  animation: bar 4s ease;
+}
+@keyframes bar {
+  from {
+    width: 0;
+  }
+}
+.wrapBack .bar:nth-child(1) span::before {
+  width: 90%;
+}
+.wrapBack .bar:nth-child(2) span::before {
+  width: 90%;
+}
+.wrapBack .bar:nth-child(3) span::before {
+  width: 80%;
+}
+.wrapBack .bar:nth-child(4) span::before {
+  width: 85%;
+}
+.wrapBack .bar:nth-child(5) span::before {
+  width: 85%;
+}
+.wrapBack .bar:nth-child(6) span::before {
+  width: 80%;
+}
+.wrapBack .bar:nth-child(7) span::before {
+  width: 60%;
+}
+.wrapBack .bar abbr {
+  width: 50px;
+  display: inline-block;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  top: 2.1rem;
+  z-index: 1;
+  background: linear-gradient(to left, #0a192f, #ccd6f6);
+  box-shadow: 0 5px 20px #0a192f, 0 5px 20px #ccd6f6;
+  animation: count 4s ease;
+  font-size: 0.8rem;
+}
+@keyframes count {
+  from {
+    left: 0%;
+  }
+}
+.wrapBack .bar:nth-child(1) abbr {
+  left: 90%;
+}
+.wrapBack .bar:nth-child(2) abbr {
+  left: 90%;
+}
+.wrapBack .bar:nth-child(3) abbr {
+  left: 80%;
+}
+.wrapBack .bar:nth-child(4) abbr {
+  left: 85%;
+}
+.wrapBack .bar:nth-child(5) abbr {
+  left: 85%;
+}
+.wrapBack .bar:nth-child(6) abbr {
+  left: 80%;
+}
+.wrapBack .bar:nth-child(7) abbr {
+  left: 60%;
 }/*# sourceMappingURL=skill.component.css.map */
