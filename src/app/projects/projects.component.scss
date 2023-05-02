@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+$backGr-main:#0a192f;
+$fontColor-first: #ccd6f6;
+$greencolor:#64ffda;
+$color-white:#fff;
+$color-Black:#000;
+$color-gray:#555;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+h5 {
+    position: relative;
+    text-transform: uppercase;
+    left: 15rem;
+    top: 5rem;
+    font-size: 2rem;
+    font-weight: 800;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -58px;
+        width: 60px;
+        height: 1px;
+        background-color: $color-white;
+    }
+}
+
+.card {
+    margin-top: 10rem;
+    position: relative;
+    width: 20rem;
+    height: 10rem;
+    background: $color-white;
+    border-radius: 1rem;
+    box-shadow: 0 1.9rem 4.4rem rgb(0, 0, 0, 0.15);
+    transition: .5s;
+    &:hover {
+        height: 25rem;
+        .imgBx {
+            width: 13.8rem;
+            height: 13.8rem;
+        }
+        .content {
+            .details {
+                transform: translateY(0px);
+            }
+        }
+    }
+    .imgBx {
+        position: absolute;
+        left: 50%;
+        top: -2.7rem;
+        transform: translate(-50%);
+        width: 8.3rem;
+        height: 8.3rem;
+        background: $color-white;
+        border-radius: 1rem;
+        box-shadow: 0 .8rem 2.7rem rgba(0, 0, 0, 0.15);
+        overflow: hidden;
+        transition: .5s;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: $color-Black;
+        overflow: hidden;
+        .details {
+            padding: 40px;
+            text-align: center;
+            width: 100%;
+            transition: .5s;
+            transform: translateY(150px);
+            h2 {
+                font-size: 1em;
+                font-weight: 600;
+                color: $color-gray;
+                line-height: 1em;
+                span {
+                    font-size: .75em;
+                    font-weight: 500;
+                    opacity: .5;
+                }
+            }
+            .actionBtn {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                button {
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;
+                    font-size: 1em;
+                    font-weight: 500;
+                    background: $color-gray;
+                    color: $color-white;
+                    margin: 0 auto;
+                    a {
+                        text-decoration: none;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+}
