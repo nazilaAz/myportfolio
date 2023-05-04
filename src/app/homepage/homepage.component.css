@@ -66,18 +66,18 @@ h6 {
 .home .shape img {
   position: absolute;
   width: 100%;
-  z-index: -9;
+  z-index: -1;
 }
 .home .shape .shape1 {
-  right: 0;
-  top: 50px;
+  right: 0.8rem;
+  top: 18rem;
   width: 300px;
   opacity: 0.5;
   transform-origin: center;
   animation: shape linear 30s infinite reverse;
 }
 .home .shape .shape2 {
-  left: -5px;
+  left: 5rem;
   bottom: 14rem;
   width: 350px;
   padding-left: 5rem;
@@ -98,7 +98,7 @@ h6 {
   opacity: 0.4;
   transform-origin: center;
   animation: shape3 linear 20s infinite;
-  transform: translate(-200px, -100px) rotate(0deg);
+  transform: translate(-30rem, 5rem) rotate(0deg);
 }
 @keyframes shape3 {
   100% {
@@ -124,7 +124,7 @@ h6 {
   left: 500px;
   width: 120px;
   padding-left: 5rem;
-  opacity: 0;
+  opacity: 1;
   transform-origin: center;
   animation: shape5 linear 25s infinite;
   transform: translate(0, -150px) rotate(0deg);

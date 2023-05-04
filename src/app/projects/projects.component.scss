@@ -84,16 +84,16 @@ h5 {
         color: $color-Black;
         overflow: hidden;
         .details {
-            padding: 40px;
+            padding: 3rem;
             text-align: center;
             width: 100%;
             transition: .5s;
-            transform: translateY(150px);
+            transform: translateY(8.1rem);
             h2 {
                 font-size: 1em;
                 font-weight: 600;
                 color: $color-gray;
-                line-height: 1em;
+                line-height: 1.3rem;
                 span {
                     font-size: .75em;
                     font-weight: 500;

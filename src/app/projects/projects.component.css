@@ -79,17 +79,17 @@ h5::before {
   overflow: hidden;
 }
 .card .content .details {
-  padding: 40px;
+  padding: 3rem;
   text-align: center;
   width: 100%;
   transition: 0.5s;
-  transform: translateY(150px);
+  transform: translateY(8.1rem);
 }
 .card .content .details h2 {
   font-size: 1em;
   font-weight: 600;
   color: #555;
-  line-height: 1em;
+  line-height: 1.3rem;
 }
 .card .content .details h2 span {
   font-size: 0.75em;
