@@ -7,7 +7,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BothsideasideComponent } from './bothsideaside/bothsideaside.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FooterComponent } from './footer/footer.component';
-import { ParticleComponent } from './particle/particle.component';
 import { SkillComponent } from './skill/skill.component';
 import { TestComponent } from './test/test.component';
 import { MyskillsComponent } from './myskills/myskills.component';
@@ -21,7 +20,6 @@ import { ProjectsComponent } from './projects/projects.component';
     BothsideasideComponent,
     HomepageComponent,
     FooterComponent,
-    ParticleComponent,
     SkillComponent,
     TestComponent,
     MyskillsComponent,
