@@ -10,7 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SkillComponent } from './skill/skill.component';
 import { TestComponent } from './test/test.component';
 import { MyskillsComponent } from './myskills/myskills.component';
-import { ContactmeComponent } from './contactme/contactme.component';
+// import { ContactmeComponent } from './contactme/contactme.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
@@ -23,7 +23,7 @@ import { ProjectsComponent } from './projects/projects.component';
     SkillComponent,
     TestComponent,
     MyskillsComponent,
-    ContactmeComponent,
+    // ContactmeComponent,
     ProjectsComponent,
   ],
   imports: [
