@@ -125,6 +125,7 @@
   color: hsl(0, 0%, 100%);
   overflow-x: hidden;
   padding: 0%;
+  z-index: -1;
 }
 .container-sidebar .sidebarright p {
   writing-mode: vertical-rl;
