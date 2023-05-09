@@ -92,6 +92,7 @@ h6 {
             opacity: .5;
             transform-origin: center;
             animation: shape linear 30s infinite reverse;
+            z-index: 0;
         }
         @keyframes shape {
             100% {
